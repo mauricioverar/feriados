@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feriados</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <style>
+        table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-dark bg-primary ">
+        <a class="navbar-brand" href="#"><img src="./assets/img/chili-1524520_640.png" width="50" height="50" class="d-inline-block align-top" alt="bandera" loading="lazy"> Feriados de Chile</a>
+    </nav>
+    
+    <main class="m-3">
+        <header>
+            <div class="text-center">
+                <img src="./assets/img/maxresdefault-1-740x430.jpg" alt="huasos" width="350">
+            </div>
+        </header>
+
+        <label for="mes">Seleccionar mes:
+          <select name="mes" id="mes">
+              <option value="01">enero</option>
+              <option value="02">febrero</option>
+              <option value="03">marzo</option>
+              <option value="04">abril</option>
+              <option value="05">mayo</option>
+              <option value="06">junio</option>
+              <option value="07">julio</option>
+              <option value="08">agosto</option>
+              <option value="09">septiembre</option>
+              <option value="10">octubre</option>
+              <option value="11">noviembre</option>
+              <option value="12">diciembre</option>
+          </select>
+      </label>
+    
+        <section class="formu mx-5">
+            <div class="mx-5">               
+                <form class="">
+                    <button type="submit" class="btn btn-primary mb-4">Buscar feriados</button>
+                </form>
+            </div>
+        </section>
+
+
+        <table id="cuerpo-tabla"></table>
+    </main>
+
+    
+
+    <script src="./assets/js/script.js"></script>
+    
+</body>
+</html>
